@@ -3,7 +3,7 @@ import './App.css';
 import Banner from './components/Banner';
 
 function App() {
-  const mockData = { title: "marmolada", subtitle: "stinks" }
+  const mockData = { title: "Ride", subtitle: "or die" }
   return (
     <div className="App">
       <header className="App-header">
