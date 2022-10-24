@@ -38,6 +38,10 @@
   }
 }
 
+.Banner {
+ height: 100px;
+}
+
 .Banner h3 {
   color: black;
 }
