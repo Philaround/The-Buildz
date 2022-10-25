@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import Banner from './components/Banner';
+import Navbar from './components/Navbar';
 
 function App() {
   const mockData = { title: "Ride", subtitle: "or die" }
   return (
     <div className="App">
+      <nav className="navbar navbar-expand-lg navbar-light fixed-top">
+        <Navbar title={mockData.title} subtitle={mockData.subtitle} />
+      </nav>
       <header className="App-header">
-       <Banner title={mockData.title} subtitle={mockData.subtitle} />
       </header>
     </div>
   );

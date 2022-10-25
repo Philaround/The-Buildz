@@ -38,11 +38,13 @@
   }
 }
 
-.Banner {
- height: 100px;
+.Navbar {
+ background: black;
+ height: 10vh;
  width: 100%;
 }
 
-.Banner h3 {
-  color: black;
+.Navbar p {
+  color: white;
+  margin: 0;
 }
